@@ -1,4 +1,3 @@
-==========================
 Marlin 3D Printer Firmware
 ==========================
 Marlin has a GPL license because I believe in open development.
@@ -232,11 +231,14 @@ M Codes
 Configuring and compilation:
 ============================
 
-Install the arduino software IDE/toolset v23 (Some configurations also work with 1.x.x)
-   http://www.arduino.cc/en/Main/Software
+Install Arduino 1.0.6
+   https://www.arduino.cc/en/Main/OldSoftwareReleases#previous
+
+Install Teensyduino 1.36
+   https://www.pjrc.com/teensy/td_136/
 
 Download the Marlin firmware
-   https://github.com/ErikZalm/Marlin/tree/Marlin_v1
+   https://github.com/QU-BD/Up-Marlin
    Use the "Download Zip" button on the right.
 
 For gen6/gen7 and sanguinololu the Sanguino directory in the Marlin dir needs to be copied to the arduino environment.
@@ -254,7 +256,6 @@ If all goes well the firmware is uploading
 
 That's ok.  Enjoy Silky Smooth Printing.
 
-===============================================
 Instructions for configuring Bed Auto Leveling
 ===============================================
 Uncomment the "ENABLE_AUTO_BED_LEVELING" define (commented by default)
